@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+p, h2, span{
+    font-family: "SF Pro Text";
+    color: #FFF;
+}
+
+.message {
+    height: 200px;
+    width: 500px;
+    background-color: #6da32d;
+    display: flex;
+    padding: 32px;
+}
+.message__container {
+    display: flex;
+    align-items: flex-end;
+}
+.message__content {
+    display: flex;
+    align-items: flex-end;
+    background-color: #303030;
+    width: auto;
+    padding: 16px;
+    margin-left: 24px;
+    position: relative;
+    border-radius: 6px;
+}
+.message__content::before {
+    content: '';
+    position: absolute;
+    bottom: 18px;
+    left: -8px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: #303030;
+    z-index: 10;
+    border-radius: 2px;
+}
+.message__wrap {
+    display: flex;
+    flex-direction: column;
+}
+.message__user_name {
+    color: #9369a3;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.message__time {
+    margin-left: 16px;
+    opacity: 30%;
+    font-size: 18px;
+}
+.message__text {
+    line-height: 1.4;
+    font-size: 14px;
+}
+.message__image {
+    border-radius: 50%;
+}
+
+.message__image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
