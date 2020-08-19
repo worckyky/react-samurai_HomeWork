@@ -1,0 +1,25 @@
+.default {
+    background: green;
+    padding: 8px 16px;
+    border-radius: 3px;
+    margin-top: 8px;
+    color: white;
+    font-weight: 700;
+    border: 1px solid gray;
+}
+.default:hover {
+
+}
+.red {
+    background: red;
+}
+
+
+.red:hover {
+    background: #b80004;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+}

@@ -8,6 +8,10 @@ export type UserType = {
     name: string // need to fix any
 }
 
+
+
+export let listElements: Array<string> = ['Молоко', 'Картошка', 'Яблоки', 'груши'];
+
 // уровень работы с глобальными данными
 function HW3() {
     const [users, setUsers] = useState <Array<UserType>>  ([]); // need to fix any
@@ -25,8 +29,6 @@ function HW3() {
             {/*should work (должно работать)*/}
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>
             <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeGreeting/>*/}
             <hr/>
         </div>
     );
