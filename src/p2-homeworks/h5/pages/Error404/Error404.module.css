@@ -1,0 +1,22 @@
+.errorContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.errorContainer div {
+    color: red;
+    font-size: 60px;
+    margin: 32px 0;
+}
+
+.Error__bottom {
+    padding: 16px 32px;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 6px;
+    color: red;
+}

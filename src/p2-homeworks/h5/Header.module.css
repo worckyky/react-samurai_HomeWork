@@ -1,0 +1,73 @@
+.header {
+    position: absolute;
+    left: -160px;
+    top: 0;
+    height: 100vh;
+    width: 160px;
+    background-color: gray;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+}
+
+.header_show {
+    left: 0;
+}
+
+.headerOpen {
+    position: absolute;
+    right: -134px;
+    top: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 0 6px 6px 0;
+    border: 1px solid gray;
+}
+
+.header__links {
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header__links a {
+    text-decoration: none;
+    padding: 24px;
+}
+
+.header__navigationLink {
+    text-decoration: none;
+    padding: 24px;
+    color: white;
+}
+
+/*.header__navigationLink::before {*/
+/*    content: '';*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    background: gray;*/
+/*    height: 2px;*/
+/*}*/
+
+.header__navigationLink_active {
+    color: red;
+}
+
+/*.header__navigationLink_active::before {*/
+/*    content: '';*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    background: red;*/
+/*    height: 2px;*/
+/*    z-index: 10;*/
+/*}*/
