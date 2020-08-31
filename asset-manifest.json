@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-samurai_HomeWork/static/css/main.ab5d05e3.chunk.css",
+    "main.js": "/react-samurai_HomeWork/static/js/main.05da20ff.chunk.js",
+    "main.js.map": "/react-samurai_HomeWork/static/js/main.05da20ff.chunk.js.map",
+    "runtime-main.js": "/react-samurai_HomeWork/static/js/runtime-main.1adc047d.js",
+    "runtime-main.js.map": "/react-samurai_HomeWork/static/js/runtime-main.1adc047d.js.map",
+    "static/js/2.1e9efcf5.chunk.js": "/react-samurai_HomeWork/static/js/2.1e9efcf5.chunk.js",
+    "static/js/2.1e9efcf5.chunk.js.map": "/react-samurai_HomeWork/static/js/2.1e9efcf5.chunk.js.map",
+    "index.html": "/react-samurai_HomeWork/index.html",
+    "precache-manifest.5e9e048058ab366d1b9b19e0d0c3ab78.js": "/react-samurai_HomeWork/precache-manifest.5e9e048058ab366d1b9b19e0d0c3ab78.js",
+    "service-worker.js": "/react-samurai_HomeWork/service-worker.js",
+    "static/css/main.ab5d05e3.chunk.css.map": "/react-samurai_HomeWork/static/css/main.ab5d05e3.chunk.css.map",
+    "static/js/2.1e9efcf5.chunk.js.LICENSE.txt": "/react-samurai_HomeWork/static/js/2.1e9efcf5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1adc047d.js",
+    "static/js/2.1e9efcf5.chunk.js",
+    "static/css/main.ab5d05e3.chunk.css",
+    "static/js/main.05da20ff.chunk.js"
+  ]
+}
