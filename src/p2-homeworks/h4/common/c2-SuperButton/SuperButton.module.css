@@ -7,9 +7,14 @@
     font-weight: 700;
     border: 1px solid gray;
     cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 .default:hover {
-
+    opacity: 0.7;
 }
 .red {
     background: red;
