@@ -5,6 +5,8 @@ type DefaultRadioPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElem
 type SuperRadioPropsType = DefaultRadioPropsType & {
     options?: any[]
     onChangeOption?: (option: any) => void
+    name: string
+    value: string
 }
 
 const SuperRadio: React.FC<SuperRadioPropsType> = (
@@ -16,7 +18,7 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
     }
 ) => {
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
-        // onChange, onChangeOption
+        onChangeOption && onChangeOption([e.currentTarget.checked])
     }
 
 
@@ -24,6 +26,9 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
         <label key={name + "-" + i}>
             <input
                 type={"radio"}
+                name={name}
+                value={value}
+                onChange={onChangeCallback}
                 // name, checked, value, onChange
             />
             {o}
