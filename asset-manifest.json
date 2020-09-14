@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-samurai_HomeWork/static/css/main.f03e85d5.chunk.css",
-    "main.js": "/react-samurai_HomeWork/static/js/main.4e67e9f9.chunk.js",
-    "main.js.map": "/react-samurai_HomeWork/static/js/main.4e67e9f9.chunk.js.map",
+    "main.js": "/react-samurai_HomeWork/static/js/main.5ca6ba19.chunk.js",
+    "main.js.map": "/react-samurai_HomeWork/static/js/main.5ca6ba19.chunk.js.map",
     "runtime-main.js": "/react-samurai_HomeWork/static/js/runtime-main.1adc047d.js",
     "runtime-main.js.map": "/react-samurai_HomeWork/static/js/runtime-main.1adc047d.js.map",
     "static/js/2.02cc53f0.chunk.js": "/react-samurai_HomeWork/static/js/2.02cc53f0.chunk.js",
     "static/js/2.02cc53f0.chunk.js.map": "/react-samurai_HomeWork/static/js/2.02cc53f0.chunk.js.map",
     "index.html": "/react-samurai_HomeWork/index.html",
-    "precache-manifest.89cb6afbc6dab6428db30065f8254f08.js": "/react-samurai_HomeWork/precache-manifest.89cb6afbc6dab6428db30065f8254f08.js",
+    "precache-manifest.db34aa6dcba56036720be9745c7a93da.js": "/react-samurai_HomeWork/precache-manifest.db34aa6dcba56036720be9745c7a93da.js",
     "service-worker.js": "/react-samurai_HomeWork/service-worker.js",
     "static/css/main.f03e85d5.chunk.css.map": "/react-samurai_HomeWork/static/css/main.f03e85d5.chunk.css.map",
     "static/js/2.02cc53f0.chunk.js.LICENSE.txt": "/react-samurai_HomeWork/static/js/2.02cc53f0.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1adc047d.js",
     "static/js/2.02cc53f0.chunk.js",
     "static/css/main.f03e85d5.chunk.css",
-    "static/js/main.4e67e9f9.chunk.js"
+    "static/js/main.5ca6ba19.chunk.js"
   ]
 }
