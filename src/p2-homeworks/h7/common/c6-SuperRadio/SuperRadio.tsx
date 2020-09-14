@@ -29,12 +29,12 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
                 name={name}
                 value={value}
                 onChange={onChangeCallback}
+                checked={true}
                 // name, checked, value, onChange
             />
             {o}
         </label>
     )) : [];
-
     return (
         <>
             {mappedOptions}
