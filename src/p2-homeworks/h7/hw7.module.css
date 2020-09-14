@@ -1,0 +1,11 @@
+.hw7__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-direction: column;
+}
+
+.select__container {
+    margin-bottom: 32px;
+}

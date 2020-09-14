@@ -14,14 +14,30 @@ const initialPeople = [
 function HW8() {
     const [people, setPeople] = useState(initialPeople);
 
-    const finalPeople = people.map(p => (
-        <div key={p._id}>
-            some name, age
+    const spanStyle = {
+        color: "black",
+        paddingRight: '16px'
+    }
+    const pAccent = {
+        color: 'red'
+    }
+
+    const finalPeople = people.map(peep => (
+        <div key={peep._id}>
+            <span style={spanStyle}><span style={pAccent}>Имя:</span> {peep.name}</span>
+            <span style={spanStyle}> || </span>
+            <span style={spanStyle}><span style={pAccent}>Возраст:</span> {peep.age}</span>
         </div>
     ))
 
-    const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: "sort", payload: "up"}))
+    const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: "sort", payload: "up"}));
+    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: "sort", payload: "down"}));
+    const checkAge = () => setPeople(homeWorkReducer(initialPeople, {type: "check", payload: 18}));
 
+
+    const buttonContainer = {
+        display: 'flex',
+    }
     return (
         <div>
             <hr/>
@@ -30,10 +46,13 @@ function HW8() {
             {/*should work (должно работать)*/}
 
             {finalPeople}
-            <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-            <div>sort down</div>
 
-            check 18
+
+            <div style={buttonContainer}>
+                <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
+                <div><SuperButton onClick={sortDown}>sort down</SuperButton></div>
+                <div><SuperButton onClick={checkAge}>check 18</SuperButton></div>
+            </div>
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
