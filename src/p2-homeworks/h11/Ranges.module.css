@@ -1,0 +1,25 @@
+.simpleRange__block {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.simpleRange__block span {
+    color: red;
+}
+
+
+
+.doubleRange {
+    margin-top: 32px;
+}
+.doubleRange__sum {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.doubleRange__sum span {
+    color: blue;
+}
