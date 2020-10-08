@@ -4,8 +4,8 @@ import SuperDoubleRange from "./common/c8-SuperDoubleRange/SuperDoubleRange";
 import s from './Ranges.module.css'
 
 function HW11() {
-    const [value1, setValue1] = useState(50);
-    const [value2, setValue2] = useState([40,60]);
+    const [value1, setValue1] = useState(40);
+    const [value2, setValue2] = useState([value1,60]);
 
     return (
         <div className={s.hw11}>
@@ -15,7 +15,11 @@ function HW11() {
             {/*should work (должно работать)*/}
             <div className={s.simpleRange__block}>
                 <span>{value1}</span>
-                <SuperRange onChangeRange={setValue1}
+                <SuperRange
+                    RangeValue={value1}
+                    onChangeRangeOne={setValue1}
+                    onChangeRangeTwo={setValue2}
+                    defaultSecondPoint={value2[2]}
                     // сделать так чтоб value1 изменялось
                 />
             </div>
@@ -28,9 +32,10 @@ function HW11() {
                 <SuperDoubleRange
                     // сделать так чтоб value1 и value2 изменялось
                     onChangeRange={setValue2}
+                    onChangeOne={setValue1}
                     min={0}
                     max={100}
-                    defaultValue={[value2[0], value2[1]]}
+                    defaultValue={[value2[0],value2[1]]}
                     marks={{0: 0, 100: 100}}
                 />
 

@@ -8,6 +8,7 @@ import {SliderRangeProps} from "antd/lib/slider";
 
 type SuperDoubleRangePropsType =  {
     onChangeRange?: (value: [number, number]) => void,
+    onChangeOne?: (value: number) => void,
     marks?: {
         0: number,
         100: number
@@ -23,7 +24,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
     {
         // onChangeRange,
         defaultValue,
-        onChangeRange,
+        onChangeRange,onChangeOne,
         disabled,
         min,
         max,
@@ -34,11 +35,12 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
 
     const onChangeHandler = (value: [number,number]) => {
         onChangeRange && onChangeRange(value)
+        onChangeOne && onChangeOne(value[0])
     }
 
     return (
         <>
-             <Slider range marks={marks} defaultValue={defaultValue} tooltipVisible={true} disabled={disabled} min={min} max={max} onChange={onChangeHandler}/>
+             <Slider range marks={marks} defaultValue={defaultValue} tooltipVisible={true} disabled={disabled} min={min} max={max} onChange={onChangeHandler} />
         </>
     );
 }
