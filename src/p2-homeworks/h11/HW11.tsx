@@ -19,7 +19,7 @@ function HW11() {
                     RangeValue={value1}
                     onChangeRangeOne={setValue1}
                     onChangeRangeTwo={setValue2}
-                    defaultSecondPoint={value2[2]}
+                    defaultSecondPoint={value2[1]}
                     // сделать так чтоб value1 изменялось
                 />
             </div>
@@ -35,7 +35,7 @@ function HW11() {
                     onChangeOne={setValue1}
                     min={0}
                     max={100}
-                    defaultValue={[value2[0],value2[1]]}
+                    defaultValue={[value1,value2[1]]}
                     marks={{0: 0, 100: 100}}
                 />
 

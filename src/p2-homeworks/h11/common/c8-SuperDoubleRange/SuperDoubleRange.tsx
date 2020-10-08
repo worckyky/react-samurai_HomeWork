@@ -34,13 +34,13 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
     // сделать самому, можно подключать библиотеки
 
     const onChangeHandler = (value: [number,number]) => {
-        onChangeRange && onChangeRange(value)
-        onChangeOne && onChangeOne(value[0])
+        onChangeRange && onChangeRange(value);
+        onChangeOne && onChangeOne(value[0]);
     }
 
     return (
         <>
-             <Slider range marks={marks} defaultValue={defaultValue} tooltipVisible={true} disabled={disabled} min={min} max={max} onChange={onChangeHandler} />
+             <Slider range marks={marks} value={defaultValue} tooltipVisible={true} disabled={disabled} min={min} max={max} onChange={onChangeHandler}  />
         </>
     );
 }

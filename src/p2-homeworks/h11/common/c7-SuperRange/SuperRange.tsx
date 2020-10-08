@@ -30,6 +30,7 @@ const SuperRange: React.FC<SuperRangePropsType> = (
         onChange && onChange(e); // сохраняем старую функциональность
         onChangeRangeOne && onChangeRangeOne(+e.currentTarget.value);
         onChangeRangeTwo && onChangeRangeTwo([+e.currentTarget.value , defaultSecondPoint]);
+        // console.log(defaultSecondPoint)
     }
 
     const finalRangeClassName = `${s.range} ${className ? className : ""}`;
