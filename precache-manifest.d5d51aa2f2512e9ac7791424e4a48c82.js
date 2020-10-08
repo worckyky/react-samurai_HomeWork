@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "881d7c8f08ed6ff034e44afb1287b264",
+    "revision": "edbeec5b66bfbecd4267d096c4cd8e21",
     "url": "/react-samurai_HomeWork/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-samurai_HomeWork/static/css/2.220ccb42.chunk.css"
   },
   {
-    "revision": "eac822e69a6013171d57",
+    "revision": "d71a790b584337c445ea",
     "url": "/react-samurai_HomeWork/static/css/main.333d8dcb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-samurai_HomeWork/static/js/2.b0840afe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eac822e69a6013171d57",
-    "url": "/react-samurai_HomeWork/static/js/main.0457f99c.chunk.js"
+    "revision": "d71a790b584337c445ea",
+    "url": "/react-samurai_HomeWork/static/js/main.a5855b39.chunk.js"
   },
   {
     "revision": "480b074e9c302f168446",
