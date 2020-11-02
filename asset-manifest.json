@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-samurai_HomeWork/static/css/main.333d8dcb.chunk.css",
-    "main.js": "/react-samurai_HomeWork/static/js/main.a5855b39.chunk.js",
-    "main.js.map": "/react-samurai_HomeWork/static/js/main.a5855b39.chunk.js.map",
+    "main.css": "/react-samurai_HomeWork/static/css/main.e2cfc3f1.chunk.css",
+    "main.js": "/react-samurai_HomeWork/static/js/main.092cdc6e.chunk.js",
+    "main.js.map": "/react-samurai_HomeWork/static/js/main.092cdc6e.chunk.js.map",
     "runtime-main.js": "/react-samurai_HomeWork/static/js/runtime-main.1adc047d.js",
     "runtime-main.js.map": "/react-samurai_HomeWork/static/js/runtime-main.1adc047d.js.map",
     "static/css/2.220ccb42.chunk.css": "/react-samurai_HomeWork/static/css/2.220ccb42.chunk.css",
-    "static/js/2.b0840afe.chunk.js": "/react-samurai_HomeWork/static/js/2.b0840afe.chunk.js",
-    "static/js/2.b0840afe.chunk.js.map": "/react-samurai_HomeWork/static/js/2.b0840afe.chunk.js.map",
+    "static/js/2.1561c27b.chunk.js": "/react-samurai_HomeWork/static/js/2.1561c27b.chunk.js",
+    "static/js/2.1561c27b.chunk.js.map": "/react-samurai_HomeWork/static/js/2.1561c27b.chunk.js.map",
     "index.html": "/react-samurai_HomeWork/index.html",
-    "precache-manifest.d5d51aa2f2512e9ac7791424e4a48c82.js": "/react-samurai_HomeWork/precache-manifest.d5d51aa2f2512e9ac7791424e4a48c82.js",
+    "precache-manifest.927ee8c61af4416b2dd2bfe7367545df.js": "/react-samurai_HomeWork/precache-manifest.927ee8c61af4416b2dd2bfe7367545df.js",
     "service-worker.js": "/react-samurai_HomeWork/service-worker.js",
     "static/css/2.220ccb42.chunk.css.map": "/react-samurai_HomeWork/static/css/2.220ccb42.chunk.css.map",
-    "static/css/main.333d8dcb.chunk.css.map": "/react-samurai_HomeWork/static/css/main.333d8dcb.chunk.css.map",
-    "static/js/2.b0840afe.chunk.js.LICENSE.txt": "/react-samurai_HomeWork/static/js/2.b0840afe.chunk.js.LICENSE.txt"
+    "static/css/main.e2cfc3f1.chunk.css.map": "/react-samurai_HomeWork/static/css/main.e2cfc3f1.chunk.css.map",
+    "static/js/2.1561c27b.chunk.js.LICENSE.txt": "/react-samurai_HomeWork/static/js/2.1561c27b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1adc047d.js",
     "static/css/2.220ccb42.chunk.css",
-    "static/js/2.b0840afe.chunk.js",
-    "static/css/main.333d8dcb.chunk.css",
-    "static/js/main.a5855b39.chunk.js"
+    "static/js/2.1561c27b.chunk.js",
+    "static/css/main.e2cfc3f1.chunk.css",
+    "static/js/main.092cdc6e.chunk.js"
   ]
 }
