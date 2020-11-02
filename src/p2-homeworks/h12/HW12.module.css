@@ -1,0 +1,41 @@
+.dark {
+    background: dimgrey;
+}
+
+.dark-text {
+    color: aliceblue;
+}
+
+.red {
+    background: lightcoral;
+}
+
+.red-text {
+    color: aqua;
+}
+
+.some {
+    background: lightgreen;
+}
+
+.some-text {
+    color: darkslateblue;
+}
+
+.themeSwitcher__block {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.themeSwitcher__block label {
+    margin-top: 16px;
+}
+
+.themeSwitcher__block label:nth-child(1) {
+    margin-top: 0;
+}
+
+.themeSwitcher__block label:nth-last-child(1) {
+    margin-bottom: 32px;
+}
