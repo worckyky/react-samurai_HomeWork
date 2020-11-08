@@ -1,0 +1,8 @@
+.request__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.request__title {
+    color: black;
+}
