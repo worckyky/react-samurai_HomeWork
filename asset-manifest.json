@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-samurai_HomeWork/static/css/main.ffeb05f3.chunk.css",
-    "main.js": "/react-samurai_HomeWork/static/js/main.22c79925.chunk.js",
-    "main.js.map": "/react-samurai_HomeWork/static/js/main.22c79925.chunk.js.map",
+    "main.js": "/react-samurai_HomeWork/static/js/main.838186c5.chunk.js",
+    "main.js.map": "/react-samurai_HomeWork/static/js/main.838186c5.chunk.js.map",
     "runtime-main.js": "/react-samurai_HomeWork/static/js/runtime-main.1adc047d.js",
     "runtime-main.js.map": "/react-samurai_HomeWork/static/js/runtime-main.1adc047d.js.map",
     "static/css/2.220ccb42.chunk.css": "/react-samurai_HomeWork/static/css/2.220ccb42.chunk.css",
     "static/js/2.c39d7cdf.chunk.js": "/react-samurai_HomeWork/static/js/2.c39d7cdf.chunk.js",
     "static/js/2.c39d7cdf.chunk.js.map": "/react-samurai_HomeWork/static/js/2.c39d7cdf.chunk.js.map",
     "index.html": "/react-samurai_HomeWork/index.html",
-    "precache-manifest.33230f0e871432596d601979b04025e1.js": "/react-samurai_HomeWork/precache-manifest.33230f0e871432596d601979b04025e1.js",
+    "precache-manifest.fc5d8aaa0f57901c3fdd9ed91d710771.js": "/react-samurai_HomeWork/precache-manifest.fc5d8aaa0f57901c3fdd9ed91d710771.js",
     "service-worker.js": "/react-samurai_HomeWork/service-worker.js",
     "static/css/2.220ccb42.chunk.css.map": "/react-samurai_HomeWork/static/css/2.220ccb42.chunk.css.map",
     "static/css/main.ffeb05f3.chunk.css.map": "/react-samurai_HomeWork/static/css/main.ffeb05f3.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.220ccb42.chunk.css",
     "static/js/2.c39d7cdf.chunk.js",
     "static/css/main.ffeb05f3.chunk.css",
-    "static/js/main.22c79925.chunk.js"
+    "static/js/main.838186c5.chunk.js"
   ]
 }
